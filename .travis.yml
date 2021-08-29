@@ -2,11 +2,5 @@ language: java
 jdk:
 - openjdk11
 
-addons:
-  sonarcloud:
-    organization: "riccardoburaioli" 
-    token: "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"
-
-script:
-- ant build
+script: ant build
 
